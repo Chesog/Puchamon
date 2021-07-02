@@ -1,0 +1,1 @@
+﻿public enum Locations {CentroPKM , PokemonLeague , error}

@@ -4,12 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PKM
+
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        try
         {
+
+            bool GameOpen = true;
+            Game game = Game.GetInstace();
+            do
+            {
+                GameOpen = game.Continue();
+            } while (GameOpen);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            
         }
     }
 }
+
