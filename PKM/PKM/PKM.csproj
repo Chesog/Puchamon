@@ -48,9 +48,11 @@
     <Compile Include="Gameplay.cs" />
     <Compile Include="Locations.cs" />
     <Compile Include="Movement.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrainerIA.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
